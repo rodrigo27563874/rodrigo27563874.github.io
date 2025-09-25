@@ -13,10 +13,10 @@ h1{
 
 figure{
     margin: 30px;
-    padding: 15px;
+    padding: 10px;
     text-align:center;
-    background-color:rgb(255, 255, 255);
-    border: 1px solid rgb(0, 0, 0);
+    background-color:rgb(183, 0, 255);
+    border: 1px solid rgb(105, 3, 109);
 }
 
 img {
