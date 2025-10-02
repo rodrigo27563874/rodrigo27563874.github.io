@@ -6,9 +6,15 @@ body
 font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
 color: rgb(162, 0, 255);
 } 
-h1{
+
+era h1 virou .titulo
+
+.titulo
+
+{
     padding: 10px;
     background-color: rgb(255, 255, 255);
+   
 }
 
 figure{
@@ -35,6 +41,7 @@ margin-top: 10px    ;
 
 
 }
+
 
 
 
