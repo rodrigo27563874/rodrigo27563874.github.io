@@ -21,15 +21,15 @@ figure{
     margin: 30px;
     padding: 10px;
     text-align:center;
-    background-color:rgb(247, 6, 255);
-    border: 1px solid rgb(234, 9, 255);
+    background-color:rgb(25, 16, 26);
+    border: 1px solid rgb(10, 7, 10);
 }
 
 img {
     width:600px;
     padding: 10xp 
 }
-.matriz da empresa{  
+.matrizdaempresa{  
 width: 550xp;
 margin-left: auto;
 margin-right: auto;
@@ -42,8 +42,47 @@ margin-top: 10px    ;
 
 }
 
+figure img:hover{
+    width: 650px;
+    transition: 0.5s;
+    box-shadow: 10px 10px 5px rgb(2, 2, 2);
+}
 
+figure img
 
+{
+width:100%
 
+}
 
+.contato__subtitulo{
+    display: inline;
+}
+.contato__info{
+    margin: 16px 0 24px;
+    
 
+    margin-left: 15px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.contato__info-titulo{
+    margin: 16px 0 24px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 28px;
+}       
+.contato__secao{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+}
+
+.contato__secap--telefone {
+    margin-left: 32px;
+}

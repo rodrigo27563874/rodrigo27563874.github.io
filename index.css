@@ -1,4 +1,24 @@
 body{
-    background-color: #080808;
+    background-color: #ffffff;
 }
 
+
+.foto_zoio{
+    width: 650px;
+    transition: 0.5s;
+    box-shadow: 10px 10px 5px rgb(241, 239, 239);
+    float: left;
+      margin-right: 10px; /* Espaço entre as imagens */
+      width: 200px; /* Ajuste o tamanho conforme necessário */
+}
+figure{
+    margin: 30px;
+    padding: 10px;
+    text-align:center;
+    background-color:rgb(25, 16, 26);
+    border: 1px solid rgb(10, 7, 10);
+}
+
+     
+
+    
