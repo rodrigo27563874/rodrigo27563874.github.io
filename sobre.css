@@ -44,7 +44,7 @@ margin-top: 10px    ;
 
 figure img:hover{
     width: 650px;
-    transition: 0.5s;
+    transition: 1.0s;
     box-shadow: 10px 10px 5px rgb(2, 2, 2);
 }
 
@@ -85,4 +85,23 @@ width:100%
 
 .contato__secap--telefone {
     margin-left: 32px;
+}
+
+.contato__secao--email {
+    margin-left: 45px;
+}
+
+.contato__secao--endereco {
+    margin-left: 30px;
+}
+
+.rodape {
+    padding: 1.75em 0;
+    font-size: 1.16rem
+
+}
+.rodape__logo {
+    width: 6em;
+    
+ 
 }

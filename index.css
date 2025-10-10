@@ -7,7 +7,7 @@ body{
     width: 650px;
     transition: 0.5s;
     box-shadow: 10px 10px 5px rgb(241, 239, 239);
-    float: left;
+    float: left; 
       margin-right: 10px; /* Espaço entre as imagens */
       width: 200px; /* Ajuste o tamanho conforme necessário */
 }
