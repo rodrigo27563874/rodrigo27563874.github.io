@@ -1,5 +1,7 @@
 body
 {
+    width: 80%;
+    max-width: 940%;
     margin-left: auto;
      margin-right: auto;
   width: 940px;
@@ -18,6 +20,8 @@ era h1 virou .titulo
 }
 
 figure{
+    max-width: 100%;
+    box-sizing: border-box;
     margin: 30px;
     padding: 10px;
     text-align:center;
@@ -102,6 +106,66 @@ width:100%
 }
 .rodape__logo {
     width: 6em;
-    
+    margin-left: 50px;
+     
  
 }
+.foto_batman.png {
+  
+     width: 650px;
+    float: left; 
+      margin-right: 10px; /* Espaço entre as imagens */
+      width: 200px; /* Ajuste o tamanho conforme necessário */}
+
+      @media (max-width: 850px) 
+
+      {
+        .contato__secao {
+    
+            display: block;
+            margin-left: lem;        }
+      }
+
+        @media (max-width: 622px) 
+{
+
+
+    
+
+
+
+.matrizdaempresa {
+    float: none;
+    margin: 0 auto; 
+}
+
+}
+
+@media (max-width: 446px) 
+{
+    .contato__subtitulo {
+     display: block;
+        margin-bottom: 0;
+
+     
+    }
+}
+
+ .contato__info{
+        margin-left: 5px;
+        font-size: .92em;
+        border-left: 2px solid rgb(162, 0, 255);
+    
+    }
+    .rodape{
+        font-size: .92em;
+    }
+    
+    @media (max-width: 342px)
+    {
+        .contato__info-descricao{
+            display: block;
+         margin-left: 1em;
+        }
+    }
+

@@ -3,14 +3,7 @@ body{
 }
 
 
-.foto_zoio{
-    width: 650px;
-    transition: 0.5s;
-    box-shadow: 10px 10px 5px rgb(241, 239, 239);
-    float: left; 
-      margin-right: 10px; /* Espaço entre as imagens */
-      width: 200px; /* Ajuste o tamanho conforme necessário */
-}
+
 figure{
     margin: 30px;
     padding: 10px;
@@ -21,4 +14,12 @@ figure{
 
      
 
-    
+    .conteiner{
+        background-color: linear-gradient(margin-bottom rgb(255, 0, 200), rgb(255, 255, 255));
+        width: 100px;
+        height: auto;
+        border-radius: 20px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
