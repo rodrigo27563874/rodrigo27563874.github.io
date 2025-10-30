@@ -21,5 +21,18 @@ color: violet;
 
 
 
+}
 
+.cabecalho_logo
+{
+padding: 1.5em  0;
+width: 14.5em;
+
+
+
+}
+
+.cabecalho__menu{
+  background-color: #d111c8;
+  margin-top: 1.5em;
 }
