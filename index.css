@@ -1,15 +1,15 @@
 body{
-    background-color: #ffffff;
+    background-color: #eeeeee;
 }
 
 
 
 figure{
-    margin: 30px;
+    margin: 300px;
     padding: 10px;
     text-align:center;
-    background-color:rgb(25, 16, 26);
-    border: 1px solid rgb(10, 7, 10);
+    background-color:rgb(1355, 50, 1455);
+    border: 100px solid rgb(10, 7, 10);
 }
 
      
@@ -18,7 +18,7 @@ figure{
         background-color: linear-gradient(margin-bottom rgb(255, 0, 200), rgb(255, 255, 255));
         width: 100px;
         height: auto;
-        border-radius: 20px;
+        border-radius: 100px;
         text-align: center;
         display: block;
         margin: 0 auto;

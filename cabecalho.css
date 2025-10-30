@@ -8,14 +8,16 @@ color: violet;
 
   background-color: #c830ee; 
     color: rgb(237, 33, 255); 
-  padding: 20px;
-  text-align: center;
- width: auto;
- height: auto;
+  padding: 10px;
+  display: flex;
+ width: 1000%;
+ height: 1000%;
  font-size: medium;
  text-transform: uppercase;
  letter-spacing: 0.6em;
   font-family: 'Montserrat', sans-serif;
+
+  align-items: center;
 
 
 
@@ -33,6 +35,39 @@ width: 14.5em;
 }
 
 .cabecalho__menu{
-  background-color: #d111c8;
+  display: flex;
+  background-color: #0a0a0a;
   margin-top: 1.5em;
+  counter-increment: none;
+  flex-wrap: wrap;
+  justify-content: left;
 }
+.cabecalho__item-menu {
+
+display: inline-block;
+
+}
+
+.cabecalho__link-menu {
+  color: #9605f7;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 1.5em;
+  display: block;
+} 
+
+.cabecalho__link-menu a{
+
+  display: inline-block;
+  padding: 1.86 1.42em;
+
+}
+@media (max-width: 640px) {
+  .cabecalho__menu {
+    padding: 0.50;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+  }
+}
+
