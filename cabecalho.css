@@ -1,30 +1,19 @@
 .cabecalho {
-    background-color: #ff17f3;
-color: blueviolet;
-color: violet;
-    text-align: center;
-    padding: 20px;
-
-
-  background-color: #c830ee; 
-    color: rgb(237, 33, 255); 
-  padding: 10px;
+  background-color: #d10bb7; /* roxo */
+  color: rgb(233, 23, 215);
+  width: 100%; /* ocupa toda a largura da tela */
+  height: 500px;
   display: flex;
- width: 1000%;
- height: 1000%;
- font-size: medium;
- text-transform: uppercase;
- letter-spacing: 0.6em;
-  font-family: 'Montserrat', sans-serif;
-
   align-items: center;
-
-
-
-
-
+  justify-content: flex-start; /* conteúdo alinhado à esquerda */
+  padding: 10px; /* espaçamento interno */
+  font-size: medium;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  font-family: 'Montserrat', sans-serif;
+  background-position: center;
+  margin: 0; /* remove margens externas */
 }
-
 .cabecalho_logo
 {
 padding: 1.5em  0;
